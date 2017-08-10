@@ -3,6 +3,7 @@
  * Re-exports components and other modules via a cleaner API.
  */
 
+import AutocompleteInput from './components/AutocompleteInput/Autocomplete';
 import Button from './components/Button/Button';
 import Icon from './components/Icon/Icon';
 import PublicationStatus from './components/PublicationStatus/PublicationStatus';
@@ -14,6 +15,7 @@ import Explorer, {
 } from './components/Explorer';
 
 export {
+  Autocomplete,
   Button,
   Icon,
   PublicationStatus,
